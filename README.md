@@ -1,5 +1,8 @@
 AndroidDevTools
 ===============
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/inferjay/AndroidDevTools?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **Android Dev Tools官网地址：[www.androiddevtools.cn](http://www.androiddevtools.cn)**
 
 收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。
@@ -40,7 +43,12 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####Android Studio
 | 版本号  |   Windows         |       Mac OSX     |       Linux     |
 |:------:|:--------------:|:-----------------:|:------------------:|
-|  1.0 RC | [下载][1.0rc-win] | [下载][1.0rc-mac] | [下载][1.0rc-linux] |
+|  1.0.2 | [下载][1.0.2-win] | [下载][1.0.2-mac] | [下载][1.0.2-linux] |
+|  1.0.1 | [下载][1.0.1-win] | [下载][1.0.1-mac] | [下载][1.0.1-linux] |
+|  1.0正式版 | [下载][1.0-win] | [下载][1.0-mac] | [下载][1.0-linux] |
+|  1.0 RC4 | [下载][1.0rc4-win] | [下载][1.0rc4-mac] | [下载][1.0rc4-linux] |
+|  1.0 RC2 | [下载][1.0rc2-win] | [下载][1.0rc2-mac] | [下载][1.0rc2-linux] |
+|  1.0 RC1 | [下载][1.0rc1-win] | [下载][1.0rc1-mac] | [下载][1.0rc1-linux] |
 |  0.9.3 | [下载][0.9.3-win] | [下载][0.9.3-mac] | [下载][0.9.3-linux] |
 |  0.9.2 | [下载][0.9.2-win] | [下载][0.9.2-mac] | [下载][0.9.2-linux] |
 |  0.9.1 | [下载][0.9.1-win] | [下载][0.9.1-mac] | [下载][0.9.1-linux] |
@@ -65,9 +73,29 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 |  0.5.9 | [下载][0.5.9-win] | [下载][0.5.9-mac] | [下载][0.5.9-linux] |
 |  0.5.8 | [下载][0.5.8-win] | [下载][0.5.8-mac] | [下载][0.5.8-linux] |
 
-[1.0rc-win]:http://pan.baidu.com/s/1sjsKtIl
-[1.0rc-mac]:http://pan.baidu.com/s/1gdrcRfX
-[1.0rc-linux]:http://pan.baidu.com/s/1sjO82st
+[1.0.2-win]:http://pan.baidu.com/s/1pJA0b0n
+[1.0.2-mac]:http://pan.baidu.com/s/1jGuvmuU
+[1.0.2-linux]:http://pan.baidu.com/s/1qWCzSjM
+
+[1.0.1-win]:http://pan.baidu.com/s/1cu76m
+[1.0.1-mac]:http://pan.baidu.com/s/1hqoZCDe
+[1.0.1-linux]:http://pan.baidu.com/s/1c0nLN6g
+
+[1.0-win]:http://pan.baidu.com/s/1eQzmQDO
+[1.0-mac]:http://pan.baidu.com/s/1dDitUFJ
+[1.0-linux]:http://pan.baidu.com/s/1kTn7wLx
+
+[1.0rc4-win]:http://pan.baidu.com/s/1pJkbwin
+[1.0rc4-mac]:http://pan.baidu.com/s/1hq1QBVQ
+[1.0rc4-linux]:http://pan.baidu.com/s/1eQBygj4
+
+[1.0rc2-win]:http://pan.baidu.com/s/1sjx4rNJ
+[1.0rc2-mac]:http://pan.baidu.com/s/1eQpJmqI
+[1.0rc2-linux]:http://pan.baidu.com/s/1ntuUBvN
+
+[1.0rc1-win]:http://pan.baidu.com/s/1sjsKtIl
+[1.0rc1-mac]:http://pan.baidu.com/s/1gdrcRfX
+[1.0rc1-linux]:http://pan.baidu.com/s/1sjO82st
 
 [0.9.3-win]:http://pan.baidu.com/s/1o6JoLzc
 [0.9.3-mac]:http://pan.baidu.com/s/1o69LsOq
@@ -177,12 +205,40 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 ####SDK Tools
 
 | 版本号 	     | Windows             |          Mac OSX        |          Linux         |
-|:----------:|:-------------:|:------:|:----------:|
+|:----------|:-------------:|:------|:----------:|
+| sdk-tools-r24.0.2 | [installer_r24.0.2-windows.exe][installer_r24.0.2-win] [android-sdk_r24.0.2-windows.zip][android-sdk_r24.0.2-win] | [android-sdk_r24.0.2-macosx.zip][android-sdk_r24.0.2-mac] | [android-sdk_r24.0.2-linux.tgz][android-sdk_r24.0.2-linux] |
+| sdk-tools-r24.0.1 | [installer_r24.0.1-windows.exe][installer_r24.0.1-win] [android-sdk_r24.0.1-windows.zip][android-sdk_r24.0.1-win] | [android-sdk_r24.0.1-macosx.zip][android-sdk_r24.0.1-mac] | [android-sdk_r24.0.1-linux.tgz][android-sdk_r24.0.1-linux] |
+| sdk-tools-r24 | [installer_r24-windows.exe][installer_r24-win] [android-sdk_r24-windows.zip][android-sdk_r24-win] | [android-sdk_r24-macosx.zip][android-sdk_r24-mac] | [android-sdk_r24-linux.tgz][android-sdk_r24-linux] |
 | sdk-tools-r23.0.5 | [android-sdk_r23.0.5-windows(非官方版).zip][android-sdk_r23.0.5-win] | [android-sdk_r23.0.5-macosx(非官方版).zip][android-sdk_r23.0.5-mac] |  |
 | sdk-tools-r23.0.2 | [installer_r23.0.2-windows.exe][installer_r23.0.2-win] [android-sdk_r23.0.2-windows.zip][android-sdk_r23.0.2-win] | [android-sdk_r23.0.2-macosx.zip][android-sdk_r23.0.2-mac] | [android-sdk_r23.0.2-linux.tgz][android-sdk_r23.0.2-linux] |
 | sdk-tools-r23 | [installer_r23-windows.exe][installer_r23-win] [android-sdk_r23-windows.zip][android-sdk_r23-win] | [android-sdk_r23-macosx.zip][android-sdk_r23-mac] | [android-sdk_r23-linux.tgz][android-sdk_r23-linux] |
 
 > **备注：** `非官方版` 是在 `23.0.2` 的基础上进行了在线更新包含了 `Android 5.0 SDK` ，`SDK Tools 23.0.5` 、`Build Tools 21.0.1` 、`Support Library 21`等。
+
+[installer_r24.0.2-win]:http://pan.baidu.com/s/1eQH3ZOI
+[android-sdk_r24.0.2-win]:http://pan.baidu.com/s/1c0vnzMC
+
+[android-sdk_r24.0.2-mac]:http://pan.baidu.com/s/1mgDnXMw
+
+[android-sdk_r24.0.2-linux]:http://pan.baidu.com/s/1eQEglTS
+
+
+[installer_r24.0.1-win]:http://pan.baidu.com/s/1gdgojhp
+[android-sdk_r24.0.1-win]:http://pan.baidu.com/s/1gdEKclP
+
+[android-sdk_r24.0.1-mac]:http://pan.baidu.com/s/1i3467DN
+
+[android-sdk_r24.0.1-linux]:http://pan.baidu.com/s/1gdvNj83
+
+
+[installer_r24-win]:http://pan.baidu.com/s/1jG5ks7c
+[android-sdk_r24-win]:http://pan.baidu.com/s/1pJ4uk4r
+
+[android-sdk_r24-mac]:http://pan.baidu.com/s/1pJ8xUgN
+
+[android-sdk_r24-linux]:http://pan.baidu.com/s/1pJ4uk47
+
+
 
 [android-sdk_r23.0.5-win]:http://pan.baidu.com/s/1bntmoqV
 
@@ -487,6 +543,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号  |
 |:---------:|
+| [21.0.3](http://pan.baidu.com/s/1kTmlB9d)   |
 | [21.0.2](http://pan.baidu.com/s/1mgso8Y0)   |
 | [21](http://pan.baidu.com/s/1o6v78Lk)   |
 | [20](http://pan.baidu.com/s/1eQIMXMy)   |
@@ -496,6 +553,7 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 
 |    版本号  |
 |:---------:|
+| [21.0.3](http://pan.baidu.com/s/1jG5k2Lg)   |
 | [21.0.2](http://pan.baidu.com/s/1kTzIkYV)   |
 | [21](http://pan.baidu.com/s/1o6MBWIu)   |
 | [20](http://pan.baidu.com/s/1o6OBlR8)   |
@@ -537,34 +595,47 @@ ADT Bundle包含了Eclipse、ADT插件和SDK Tools，是已经集成好的IDE，
 [samples-8]:http://pan.baidu.com/s/1ntv7wut
 
 ####NDK
-C/C++开发Android应用工具包
-
-| Platform(32-bit target) | Package |
-|:----------|:-------------|
-| Windows 32-bit | [android-ndk32-r10-windows-x86.zip](http://pan.baidu.com/s/1bnB1o1T) | 
-| Windows 64-bit | [android-ndk32-r10-windows-x86_64.zip](http://pan.baidu.com/s/1gdmW6cj) | 
-| Mac OS X 32-bit | [android-ndk32-r10-darwin-x86.tar.bz2](http://pan.baidu.com/s/1jGtBYyq) | 
-| Mac OS X 64-bit | [android-ndk32-r10-darwin-x86_64.tar.bz2](http://pan.baidu.com/s/1gdADfaF) | 
-| Linux 32-bit (x86) | [android-ndk32-r10-linux-x86.tar.bz2](http://pan.baidu.com/s/1V2Tg) | 
-| Linux 64-bit (x86) | [android-ndk32-r10-linux-x86_64.tar.bz2](http://pan.baidu.com/s/1pJJQokV) | 
-
-| Platform(64-bit target)	| Package |
-|:----------|:-------------|
-| Windows 32-bit	| [android-ndk64-r10-windows-x86.zip](http://pan.baidu.com/s/1qW0RtzI) | 
-| Windows 64-bit	| [android-ndk64-r10-windows-x86_64.zip](http://pan.baidu.com/s/1ntypDpf) | 
-| Mac OS X 32-bit	| [android-ndk64-r10-darwin-x86.tar.bz2](http://pan.baidu.com/s/1o6G44Eu) | 
-| Mac OS X 64-bit	| [android-ndk64-r10-darwin-x86_64.tar.bz2](http://pan.baidu.com/s/1gd7pvJ9) | 
-| Linux 32-bit (x86)| [android-ndk64-r10-linux-x86.tar.bz2](http://pan.baidu.com/s/1hql8AIo) | 
-| Linux 64-bit (x86)| [android-ndk64-r10-linux-x86_64.tar.bz2](http://pan.baidu.com/s/1dDreuPz) | 
+C/C++开发Android应用工具包,`Linux/Mac OS X 下NDK r10c`的安装方法请戳[这里](https://github.com/inferjay/AndroidDevTools/wiki/Installing-the-NDK-On-Linux-and-Mac-OS-X-(Darwin)
 
 | 版本号 	  | Windows              |          Mac OSX        |          Linux         |
-|:----------:|:-------------:|:------:|:----------:|
+|:----------|:-------------:|:------:|:----------:|
+| ndk-r10c | [32位][r10c-win-32] [64位][r10c-win-64] | [32位][r10c-mac-32] [64位][r10c-mac-64] | [32位][r10c-linux-32] [64位][r10c-linux-64]  |
+| ndk64-r10 | [32位][ndk64-r10-win-32] [64位][ndk64-r10-win-64] | [32位][ndk64-r10-mac-32] [64位][ndk64-r10-mac-64] | [32位][ndk64-r10-linux-32] [64位][ndk64-r10-linux-64]  |
+| ndk32-r10 | [32位][ndk32-r10-win-32] [64位][ndk32-r10-win-64] | [32位][ndk32-r10-mac-32] [64位][ndk32-r10-mac-64] | [32位][ndk32-r10-linux-32] [64位][ndk32-r10-linux-64]  |
 | ndk-r9d | [32位][r9d-win-32] [64位][r9d-win-64] | [32位][r9d-mac-32] [64位][r9d-mac-64] | [32位][r9d-linux-32] [64位][r9d-linux-64]  |
+
 
 | Additional Download (32-, 64-bit) |  Package |
 |:----------|:-------------|
 | r10 STL debug info | [android-ndk-r10-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1xWgUE) | 
 | r9 STL debug info | [android-ndk-r9-cxx-stl-libs-with-debug-info.zip](http://pan.baidu.com/s/1c0EMn8O) |
+
+[r10c-win-32]:http://pan.baidu.com/s/1bnGnKkB
+[r10c-win-64]:http://pan.baidu.com/s/1ntmhjUL
+
+[r10c-mac-32]:http://pan.baidu.com/s/1i37Ud8L
+[r10c-mac-64]:http://pan.baidu.com/s/1eQ08GOa
+
+[r10c-linux-32]:http://pan.baidu.com/s/1c0o11wk
+[r10c-linux-64]:http://pan.baidu.com/s/1c0tljk0
+
+[ndk64-r10-win-32]:http://pan.baidu.com/s/1qW0RtzI
+[ndk64-r10-win-64]:http://pan.baidu.com/s/1ntypDpf
+
+[ndk64-r10-mac-32]:http://pan.baidu.com/s/1o6G44Eu
+[ndk64-r10-mac-64]:http://pan.baidu.com/s/1gd7pvJ9
+
+[ndk64-r10-linux-32]:http://pan.baidu.com/s/1hql8AIo
+[ndk64-r10-linux-64]:http://pan.baidu.com/s/1dDreuPz
+
+[ndk32-r10-win-32]:http://pan.baidu.com/s/1bnB1o1T
+[ndk32-r10-win-64]:http://pan.baidu.com/s/1gdmW6cj
+
+[ndk32-r10-mac-32]:http://pan.baidu.com/s/1jGtBYyq
+[ndk32-r10-mac-64]:http://pan.baidu.com/s/1gdADfaF
+
+[ndk32-r10-linux-32]:http://pan.baidu.com/s/1V2Tg
+[ndk32-r10-linux-64]:http://pan.baidu.com/s/1pJJQokV
 
 [r9d-win-32]:http://pan.baidu.com/s/1dDxjl8t
 [r9d-win-64]:http://pan.baidu.com/s/1jGgecXw
@@ -616,6 +687,8 @@ C/C++开发Android应用工具包
 
 |    版本号   |
 |:----------|
+| [gradle-2.2.1-all.zip](http://pan.baidu.com/s/1eQH39AE) |
+| [gradle-2.2-all.zip](http://pan.baidu.com/s/1i3BXKYp) |
 | [gradle-2.1-all.zip](http://pan.baidu.com/s/1bnF6jV5) |
 | [gradle-2.0-all.zip](http://pan.baidu.com/s/1mgFTN7a) |
 | [gradle-1.12-all.zip](http://pan.baidu.com/s/1Gmlx8)   |
@@ -807,6 +880,7 @@ C/C++开发Android应用工具包
 | Android Holo Colors Generator       |       | [下载][HoloColorsGenerator]  |                 |
 | Android Simple Nine-patch Generator |       | [下载][Simple Nine-patch Generator]  |                 |
 | Android Device Frame Generator |            | [下载][Device Frame Generator]  |                 |
+| Android 9-patch shadow generator |            | [下载][Android shadow generator]  |                 |
 
 [AndroidAssetStudio]:http://romannurik.github.io/AndroidAssetStudio/
 [AndroidDrawableFactory]:https://github.com/tizionario/AndroidDrawableFactory
@@ -814,6 +888,7 @@ C/C++开发Android应用工具包
 [HoloColorsGenerator]:http://android-holo-colors.com
 [Simple Nine-patch Generator]:http://romannurik.github.io/AndroidAssetStudio/nine-patches.html
 [Device Frame Generator]:http://f2prateek.com/android-device-frame-generator/
+[Android shadow generator]:http://inloop.github.io/shadow4android/
 
 #### Android资源分析工具
 | 名称                   |      简介        |         下载地址            |    使用教程      |
@@ -1447,6 +1522,8 @@ Segmentfault镜像地址：[http://mirrors.segmentfault.com/adchs/](http://mirro
 [UI Cloun](http://ui-cloud.com)
 
 [161个国内外社交网站矢量图标](http://github.com/nullice/NViconsLib_Silhouette)
+
+[250 free icons in 5 sizes and 14 colors](http://www.androidicons.com)
 
 # Books
 ---
